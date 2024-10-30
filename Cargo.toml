@@ -21,7 +21,7 @@ pg17 = ["pgrx/pg17", "pgrx-tests/pg17" ]
 pg_test = []
 
 [dependencies]
-pgrx = "=0.12.6"
+pgrx = "=0.12.7"
 bytes = "1.1.0"
 num-traits = "0.2.14"
 num-bigint = "0.4.3"
@@ -35,7 +35,7 @@ yasna = {version = "0.5.0", features = ["num-bigint"]}
 regex = "1.10.3"
 
 [dev-dependencies]
-pgrx-tests = "=0.12.6"
+pgrx-tests = "=0.12.7"
 
 [profile.dev]
 panic = "unwind"
